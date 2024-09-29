@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="Thiago" fetch="https://github.com/diasthiago11"/>
-  <remote name="BarryBlackCat" fetch="https://github.com/BarryBlackCat"/>
+  <remote name="Dhinesh" fetch="https://github.com/DhineshCool"/>
   <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
@@ -18,17 +18,12 @@
   <project path="kernel/motorola/sm6150"
            name="android_kernel_motorola_sm6150"
            remote="Thiago"
-           revision="v8" />
+           revision="ne" />
 
-  <project path="hardware/motorola"
-           name="android_hardware_motorola"
-           remote="LineageOS"
+  <project path="packages/apps/MotoActions"
+           name="packages_apps_MotoActions"
+           remote="Dhinesh"
            revision="lineage-21" />
-
-    <project path="system/qcom"
-           name="android_system_qcom"
-           remote="LineageOS"
-           revision="lineage-21" /> 
 
   <project path="vendor/motorola"
            name="proprietary_vendor_motorola"
