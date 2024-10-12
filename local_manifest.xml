@@ -16,7 +16,7 @@
            revision="dot" />
            
   <project path="kernel/motorola/sm6150"
-           name="kernel_motorola_sm6150"
+           name="android_kernel_motorola_sm6150"
            remote="Thiago"
            revision="testv8" />
 
