@@ -14,6 +14,11 @@
            name="android_device_motorola_sm6150-common-11test"
            remote="Thiago"
            revision="lineage-19.1" />
+
+  <project path="hardware/motorola"
+           name="android_hardware_motorola"
+           remote="LineageOS"
+           revision="lineage-19.1" />
            
   <project path="kernel/motorola/sm6150"
            name="android_kernel_motorola_sm6150"
